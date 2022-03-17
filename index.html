@@ -18,8 +18,8 @@
             </div>
             <div class="credit">
                 Photo by 
-                <a href="https://unsplash.com/@tlisbin"> Tommy Lisbin</a> on 
-                <a href="https://unsplash.com/photos/A_mWBNgFi4I">Unsplash</a>
+                <a class="unsplash" href="https://unsplash.com/@tlisbin"> Tommy Lisbin</a> on 
+                <a class="unsplash" href="https://unsplash.com/photos/A_mWBNgFi4I">Unsplash</a>
             </div>
         </div>
         <div class="rightContainer">
@@ -28,12 +28,27 @@
                 Sign up now to get started.<br><br>
                 You know you want to.
             </div>
-            <div class="form">
-                user input boxes here
+            <div class="formContainer">
+                Lets do this!
+                <div class="form">
+                    <label for="first_name">First Name:</label>
+                    <input type="text" id="first_name" name="first_name">
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" id="last_name" name="last_name">
+                    <label for="user_email">Email Address:</label>
+                    <input type="email" id="user_email" name="email" placeholder="you@example.com">
+                    <label for="phone_number">Phone Number:</label>
+                    <input type="phone_number" id="phone_number" name="phone_number" placeholder="###-###-####">
+                    <label for="user_password">Password:</label>
+                    <input type="password" id="user_password" name="password">
+                    <label for="confirm_password">Confirm Password:</label>
+                    <input type="confirm_password" id="confirm_password" name="confirm_password">
+                </div>
             </div>
             <button id="createAccount">Create Account</button>
-            <div class="notSure">
-                Aready have an account? Log in<-link this
+            <div class="alreadyUser">
+                Aready have an account? 
+                <a class="logIn" href="https://google.com">Log in</a>
             </div>
         </div>
     </div>
