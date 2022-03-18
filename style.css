@@ -77,6 +77,7 @@ img {
     padding: 2rem;
     width: auto;
     border-color: rgb(93, 35, 228);
+    background-color: rgb(235, 233, 233);
 }
 
 .form {
@@ -101,9 +102,24 @@ label {
     padding-top: .75rem;
 }
 
-input {
+input[type=text] {
+    background-color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     display: block;
+    border: 2px solid white;
+    outline: none;
+    transition: .25s;
+    color: rgb(93, 35, 228);
+    font-weight: 600;
+}
+
+input[type=text]:focus {
+    border: 2px solid rgb(93, 35, 228);
+}
+
+input[type=text]:focus:required {
+    border: 2px solid red;
+
 }
 
 #createAccount {
